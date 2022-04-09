@@ -22,10 +22,14 @@ public class Theorem {
     /* Mik a tömbök? (Mire használhatóak? Mikor érdemes használni őket? Hogyan hozhatjuk létre őket?) - 3p
         Ide jön a válaszod...
         a tömbök arra használatosak h azonos tipusu elemeket tároljunk bennük
-        0. indextől számoljuk őket.
+        0. indextől számoljuk őket, első eleme: numbers[0];
+        utolsó eleme: numbers[numbers.length - 1];
+
          int[] numbers = {1,2,3,4,5}
          int[] numbers = new int[5] --> a tömb hosszát jelenti ez a szám
          String[] names = new String[25];
+         léteznek több dimenziós tömbök is:
+         int tobbDimenzios[][] =  new int[8][8];
      */
 
 }

@@ -264,6 +264,15 @@ public class Practice {
      * @return az eredeti üzenet karakterei fordított sorrendben
      */
     public static char[] reverseMessage(char[] message) {
+
+        char uj = 0;
+        for (int i = 0; i < message.length/2; i++) {
+            uj = message[i];
+            message[i] = message[message.length-1-i];
+            message[message.length-1-i] = uj;
+
+        }
+
         return message;
     }
 
@@ -296,6 +305,8 @@ public class Practice {
      * @return a legtöbb veszteséget tartalmazó hónap index-száma
      */
     public static int getWorstMonthIndex(int[][] lossesPerMonths) {
+
+
         return -1;
     }
 
@@ -323,6 +334,7 @@ public class Practice {
      * @param shipPowers az űrhajók ereje
      */
     public static void sortShipsByPower(String[] shipNames, int[] shipPowers) {
+
 
     }
 

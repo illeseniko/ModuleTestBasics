@@ -28,7 +28,7 @@ public class Theorem {
          int[] numbers = {1,2,3,4,5}
          int[] numbers = new int[5] --> a tömb hosszát jelenti ez a szám
          String[] names = new String[25];
-         léteznek több dimenziós tömbök is:
+         léteznek több dimenziós tömbök is, pl itt egy 2 dimenziós:
          int tobbDimenzios[][] =  new int[8][8];
      */
 
